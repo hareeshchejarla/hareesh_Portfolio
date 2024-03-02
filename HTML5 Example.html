@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///D:/UI-Practice/Test/html5/table.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Example</title>
+    <style>
+        ul {
+           margin: 20px auto;
+           border: 1px solid;
+           width: 500px;
+           padding-right: 15px;
+           background-color: yellowgreen;
+        }
+        li {
+            border: 1px solid; 
+            padding: 10px;
+            list-style: none;
+            margin: 10px;
+        }
+        .title{
+            text-align: center;
+            color: brown;
+        }
+        .ran{
+            
+            position: relative;
+            top: -11px;
+          color: brown;
+        }
+       
+
+       
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="title">
+            Registration Page
+        </li>
+        <li>
+              User name : 
+              <input type="text" id="ee" />
+        </li>
+        <li>
+           Age: <input type="date" id="ee">
+        </li>
+        <li>
+            Age : <input type="number" min="20" max="60" maxlength="4">
+        </li>
+        <li>
+            PassWord : <input type="password">
+        </li>
+        <li>
+            <span class="ran"></span>
+            Price Range :<input type="range" min="1000" max="20000" step="100" id="PriceRange" onchange="rangeinfo()">
+        </li>
+        <li>
+            Uploading file : <input type="file">
+        </li>
+        <li>
+           time:<input type="time"><input type="datetime-local">
+        </li>
+        <li>
+             Email :<input type="email" id="email" pattern="@gmail.com" size="30" required="">
+        </li>
+        <li>
+            Mobile :<input type="tel">
+        </li>
+        <li>
+            Color : <input type="color">
+        </li>
+        <li>
+            Search :<input type="search">
+        </li>
+        <li>
+            <button style="color: red;position: relative;left: 25px;"> Submit</button>
+        </li>
+    </ul>
+    <script>
+           var rangeinfo = () => {
+               var selectRange = document.querySelector("#PriceRange").value
+                console.log(selectRange);
+                 document.querySelector(".ran").innerHTML=selectRange
+        }
+    </script>
+
+   
+
+
+
+</body></html>
