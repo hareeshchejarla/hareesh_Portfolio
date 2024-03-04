@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+       <style>
+      .button {
+            background-color: antiquewhite;
+            top: 30px;
+            text-align: center;
+            border: 2x dodgerblue;
+            font-size: 20px;
+            color: brown;
+            margin: 10px auto;
+            position: relative;
+            left: 727px;
+}
+       table{
+            top: 57px;
+            text-align: center;
+            position: relative;
+            left: 664px;
+            background-color: aqua;
+            /* color: black; */
+            background-image: linear-gradient(to right, red, yellow);
+            box-shadow: 10px, 10px lightblue;
+            font-size: 15px;
+            border-radius: 10px;
+            padding: 10px;
+       }
+       </style>
+    </head>
+    <body >
+        <input type="button" value="GEt List" onclick="showData()" class="button">
+        <table border ="1px solid" cellpadding="10px" cellspacing="10px" >
+            <thead >
+                <tr class="box">
+                    <th>Id</th>
+                    <th>Space craft name</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <script>
+            var showData = () => {
+              
+                axios.post("https://isro.vercel.app/api/spacecrafts").then((response) => {
+                    console.log(response)
+                    renderDetails(response.data.spacecrafts)
+                }).catch((err) => {
+
+                });
+            }
+
+            var renderDetails = (list) => {
+                list.forEach((item, index) => {
+                    var tr = $("<tr/>")
+                    var td1 = $("<td/>").html(item.id)
+                    var td2 = $("<td/>").html(item.name);
+
+                    tr.append(td1);
+                    tr.append(td2);
+                    $("tbody").append(tr);
+                });
+            }
+
+
+        </script>
+    </body>
+</html>

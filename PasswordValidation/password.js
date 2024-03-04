@@ -12,13 +12,13 @@ var changeType = () => {
         document.querySelector("#closeeye").style.display = 'none';
     }
 }
-var isPasswordValid = {
+ var isPasswordValid = {
     length: false,
     startWithUpperCase: false,
     maxOfTwoDigits: false,
     specialSymbol: false,
     symbolValidation: false
-};
+ }
 var images = {
     tick: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>',
     cross: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1 0-.708"/></svg>'
@@ -34,7 +34,7 @@ var validateKeyUpEvents = (event) => {
     }
     //Length validation
     if(element.value.length == 8){
-        document.querySelector(".lenValidation").style.color = 'green';
+        document.querySelector(".lenValidation").style.color = 'blue';
         document.querySelector("#displayIcon").innerHTML = images.tick;
     }
     else{
@@ -44,7 +44,7 @@ var validateKeyUpEvents = (event) => {
     //UpperCaseValidation
     var firstCharCode = element.value.charCodeAt(0);
     if(firstCharCode>=65 && firstCharCode<=90){
-        document.querySelector(".startWithUpperCase").style.color = 'green';
+        document.querySelector(".startWithUpperCase").style.color = 'blue';
         document.querySelector("#displayIcon1").innerHTML = images.tick;
     }
     else{
@@ -60,7 +60,7 @@ var validateKeyUpEvents = (event) => {
         }
     }
     if(count==2 || count == 1){
-        document.querySelector(".maxOfTwoDigits").style.color = 'green';
+        document.querySelector(".maxOfTwoDigits").style.color = 'blue';
         document.querySelector("#displayIcon2").innerHTML = images.tick;
     }
     else{
@@ -77,7 +77,7 @@ var validateKeyUpEvents = (event) => {
         }
     }
     if(count1==1){
-        document.querySelector(".specialSymbol").style.color = 'green';
+        document.querySelector(".specialSymbol").style.color = 'blue';
         document.querySelector("#displayIcon3").innerHTML = images.tick;
 
     }
@@ -93,7 +93,7 @@ var validateKeyUpEvents = (event) => {
         document.querySelector("#displayIcon4").innerHTML = images.cross;
     }
     else{
-        document.querySelector(".symbolValidation").style.color = 'green';
+        document.querySelector(".symbolValidation").style.color = 'blue';
         document.querySelector("#displayIcon4").innerHTML = images.tick;
     }
     isPasswordValid.length = (element.value.length === 8);
