@@ -1,0 +1,21 @@
+
+.starconter div{
+background-image: url("ratingimg2.png");
+width: 63px;
+height: 69px;
+background-color: aqua;
+margin: 30PX;
+}
+.halfstar{
+    background-position: -277px -413px;
+}
+.disable{
+    background-position:73px 59px ;
+}
+.starconter{
+    display: flex;
+}
+.Fullstar{
+   
+    background-position: -7px -144px;
+}

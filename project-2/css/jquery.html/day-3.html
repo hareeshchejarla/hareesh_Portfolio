@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-3-jq</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <style>
+        .para{
+            color:aqua;
+            background-color:black;
+            height:50px;
+            width:150px;
+            font-size:20px;
+        }
+        #btn{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h4>hello!! These  are Fruits</h4>
+    <ul>
+        <li>Apple</li>
+        <li>Pomegranate</li>
+        <li>Custard-apple</li>
+        <li>Black-Berry</li>
+    </ul>
+    <p id="msg"></p>
+    <br><br><br>
+    <button id="btn">click mee&#128512;</button>
+    <p class="para">Hiii</p>
+    <p class="para">Hello my World</p>
+
+    <script>
+      $('li:nth-child(3)').css('color','red');
+      $('li:first-child').css('color','pink');
+      $('li:last-child').click(function(){
+       $("#msg").append('hello!!!! im black-berry');
+       $("#msg").click(function(){
+            $('#msg').hide();
+       }
+
+       )
+      }
+      )
+      $('li:first-child').click(function(){
+       $("#msg").append('hello!!!! im apple');
+       $("#msg").click(function(){
+            $('#msg').hide();
+       }
+
+       )
+      }
+      )
+      $("p").hide();
+      $( "button" ).click(function() {
+      $( "p" ).toggle( "slow" );
+    });
+
+    </script> 
+</body>
+</html>

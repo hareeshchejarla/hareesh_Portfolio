@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</head>
+<body>
+    
+    <button id="divHide">hide</button>
+    <button id="divShow">show</button>
+    <div id="other">hello my harii!!!!&#128512;</div>
+    <br> <br> <br>
+
+    <div>
+        <button class="btn">Hii</button>
+        <input type="text" value="Harii&#128512;">
+    </div>
+    <div>
+        <button class="btn">Hloo</button>
+        <input type="text" value="Parruu&#128513;">
+    </div>
+
+    <div>
+        <button class="btn">Namasthe</button>
+        <input type="text" value="Vasi&#128515;">
+    </div>
+<div class="msg"></div> 
+    
+<script>
+$('#divShow').hide();   
+$('#other').hide();
+$('#divHide').click(function(){
+   $('#divHide').hide();
+   $('#divShow').show();
+   $('#other').show();
+
+}
+);
+$('#divShow').click(function(){
+   $('#divShow').hide();
+   $('#other').hide();
+   $('#divHide').show();
+   
+}
+);
+
+$( ".btn" ).click(function() {
+  $( this ).parent().slideUp( "slow", function() {
+    $(".msg" ).text( $( ".btn", this ).text() + " has completed." );
+  });
+});
+
+</script>
+
+
+</body>
+</html>

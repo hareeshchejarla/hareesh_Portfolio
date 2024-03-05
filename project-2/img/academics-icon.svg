@@ -1,0 +1,15 @@
+<svg id="acadcemics-icon" xmlns="http://www.w3.org/2000/svg" width="24.595" height="32.631" viewBox="0 0 24.595 32.631">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="_3571c0e4a31b04dd7be47f2475cf59a6" data-name="3571c0e4a31b04dd7be47f2475cf59a6" class="cls-1" d="M30.711,8.619a.48.48,0,0,0-.01-.055.5.5,0,0,0-.108-.232L23.42.173a.5.5,0,0,0-.231-.141.471.471,0,0,0-.071-.015A.5.5,0,0,0,23.034,0H8.687A2.556,2.556,0,0,0,6.125,2.549V30.082a2.556,2.556,0,0,0,2.562,2.549H28.081a2.556,2.556,0,0,0,2.562-2.54L30.72,8.668a.5.5,0,0,0-.009-.049ZM23.547,1.867l3.344,3.8,2.19,2.488h-4a1.533,1.533,0,0,1-1.537-1.53Zm6.071,28.221a1.533,1.533,0,0,1-1.537,1.523H8.687a1.533,1.533,0,0,1-1.537-1.53V2.549A1.533,1.533,0,0,1,8.687,1.02H22.522V6.628a2.132,2.132,0,0,0,.526,1.53,2.327,2.327,0,0,0,1.339.9,50.492,50.492,0,0,0,5.309.12Z" transform="translate(-6.125 0)"/>
+  <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-1" width="11.583" height="1.8" transform="translate(2.968 5.815)"/>
+  <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-1" width="18.667" height="1.8" transform="translate(2.968 10.815)"/>
+  <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-1" width="18.667" height="1.8" transform="translate(2.968 20.815)"/>
+  <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="18.667" height="1.8" transform="translate(2.968 25.815)"/>
+  <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-1" width="18.667" height="1.8" transform="translate(2.961 15.815)"/>
+</svg>

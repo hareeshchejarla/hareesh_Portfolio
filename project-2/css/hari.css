@@ -1,0 +1,650 @@
+.display-flex{
+    display:flex;
+}
+.top-header{
+    height:43px;
+    background-color:darkgreen;
+}
+.top-header-container{
+  height:30px;
+}
+.top-header-parts{
+  padding-left:37px;
+}
+.top-header-part-1{
+  color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: -14px;
+}
+.top-header-part-2{
+  color:white;
+  font-size:15px;
+}
+.top-header-part-3{
+  color:white;
+  padding:10px;
+}
+.top-header-part-4{
+  color:white;
+  font-size:20px;
+  padding:9px 0px 0px 10px;
+}
+.top-header-part-5{
+  color: white;
+  font-size: 23px;
+  margin-left: -6px; 
+}
+.top-header-part-6{
+  color:white;
+  font-size:20px;
+}
+.top-header-part-7{
+  color:white;
+  font-size:20px;
+}
+.college-code{
+  color:white;
+  text-align:right;
+  font-size:15px; 
+}
+.college-code span{
+  color:white;
+  background-color:red;
+  font-size:15px;
+}
+
+.top-header  p{
+  color:white;
+  font-size:13px;
+  margin-left:-3px;
+}
+.top-header span{
+    color:white;
+    font-size:14px;
+    text-align:center;
+}
+.top-header img{
+    height:20px;
+    width:20px;
+}
+.main-header{
+    background-color:#213A7C;
+    height:130px;
+}
+.main-header img{
+    height:130px;
+    width:130px;
+}
+.main-header-two{
+  height:70px;
+  display:flex;
+}
+.main-header-two p{
+ color: white;
+    font-size: 35px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+.main-header-part-1{
+    background-color: red;
+    color: white;
+    width: 85px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1px 7px;
+}  
+.sub-main{
+    display:flex;
+}
+.main-header-part-2{
+    background-color: rgb(17, 159, 206);
+    color: white;
+    width: 121px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 2px 11px;
+    margin-left: 6px;
+}
+.main-header-part-3{
+    background-color: orangered;
+    color: white;
+    width: 135px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1px 10px;
+    margin-left: 6px;
+}
+.navigation{
+    background-color:rgb(17, 159, 206);
+    height:38px;
+}
+.navigation ul li{
+    list-style:none;
+    color:white;
+    display:inline;
+    font-size:15px;
+    padding:20px;
+}
+.navigation ul li::after{
+    padding-left:10px;
+
+}
+.clg-bg-img{
+background-image:url(../img//viet_college_image.jpg);
+height:500px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:absolute;
+}
+.sub-div-in-bg-image{
+    background-color: #213A7C;
+    height: 136px;
+    width: 610px;
+    position: absolute;
+    bottom: 36px;
+    right: 0px;
+    border-top-left-radius: 165px;
+    opacity:0.8;
+}
+.sub-div-in-bg-image h6{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding:  20px 0px 0px 80px;
+}
+.sub-div-in-bg-image p{
+    color:white;
+    font-size:20px;
+    padding-left:140px;
+}
+.sub-div-in-bg-image hr{
+    color:white;
+    opacity:0.9;
+    margin-left:80px;
+    width:287px;
+}
+.detailes{
+    background-color:#FFD500;
+    width:100%;
+    height:40px;
+}
+.detailes :first-child p{
+    background-color: red;
+    color: white;
+    height:40px;
+    border-bottom-right-radius: 30px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 15px;
+} 
+.detailes :last-child{
+    background-color:#FFD500;
+    color:#512900;
+    height:40px;
+    font-weight: 600;
+    font-size: 17px; 
+    padding:0px;  
+} 
+.bg-img-linear-gradient{ 
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/sports.jpg);
+}
+.bg-images-flex{
+    display:flex;
+}
+.bg-img-2-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/placement.gif);
+}
+.bg-img-4-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/bus.jpg);
+}
+.bg-img-3-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/cse\ lab.jpg);
+}
+.bg-img-5-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/sports.jpg);
+}
+.bg-img-6-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/viet_college_image.jpg);
+}
+.bg-img-7-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/english\ lab.jpg);
+}
+.bg-img-8-linear-gradient{
+    height:150px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: linear-gradient( rgb(4 39 87 / 0.9), rgba(4, 39, 87, 0.9)), url(../img/electrical\ lab.jpg);
+}
+.divs-colors{
+    display:flex;
+    margin:0px 0px 20px 0px;
+   
+}
+.yellow-stripe{
+    height:44px;
+    width:18px;
+    background-color:yellow;
+    margin:15px 0px 0px 0px;
+}
+.red-stripe{
+    height:44px;
+    width:18px;
+    margin-top:15px;
+    background-color:red;    
+}
+.offered-courses-headlines{
+    color: #605d5d;
+    font-size:40px;
+    font-weight:500;
+    padding: 10px 0px 0px 30px;        
+}
+.diploma-courses-detailes{
+ color:red;
+ font-size:28px;
+ font-weight:700;
+ padding-left:28px
+}
+.courses-detailes span{
+    font-weight:400;
+}
+.flex-courses-diploma{
+ background-color:red;
+ height:105px;
+ width:315px;
+ border-radius:15px;
+ margin-left:33px;
+}
+.display-flex img{
+    height: 85px;
+    padding:  15px 0px 0px 30px;
+}
+.display-flex p{
+    color:white;
+    font-size:20px;
+    padding:10px 0px 0px 35px;
+}
+/***UG-COURSES-CSS**/
+.UG-courses-headlines{
+    color:rgb(35, 152, 191);
+    font-size:28px;
+    font-weight:700;
+    padding:20PX 0PX 0PX 28px;
+   }
+.UG-courses-detailes span{
+    font-weight:400;
+}
+.flex-UG-courses{
+  background-color:rgb(35, 152, 191);
+  height:105px;
+   width:315px;
+   border-radius:15px;
+   margin: 15px 0px 0px 33px; 
+ }
+.display-flex img{
+ height: 85px;
+ padding:  15px 0px 0px 30px;
+ }
+.display-flex p{
+ color:white;
+ font-size:20px;
+ padding:10px 0px 0px 35px;
+ }
+ /**PG-courses-starts**/
+ .PG-courses-headlines{
+    color:chocolate;
+    font-size:28px;
+    font-weight:700;
+    padding:20PX 0PX 0PX 28px;
+   }
+.PG-courses-detailes span{
+    font-weight:400;
+}
+.flex-PG-courses{
+  background-color:chocolate;;
+  height:105px;
+   width:315px;
+   border-radius:15px;
+   margin: 15px 0px 20px 33px; 
+   }
+.display-flex img{
+ height: 85px;
+ padding:  15px 0px 0px 30px;
+ }
+.display-flex p{
+ color:white;
+ font-size:20px;
+ padding:10px 0px 0px 35px;
+ }
+ .facilities-sec{
+    background-color:#213A7C;
+    height:466px;
+ }
+ .divs-colors p{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 8px 0px 0px 20px;
+}
+.library-sec p{
+ color:white;
+ padding:5px 0px 0px 36px;
+ font-size:18px;
+ font-weight:400;
+}
+.library-sec h6{
+   font-size:37px;
+   font-weight:500;
+   color:rgb(201 228 237);
+   padding:25px 0px 10px 34px;
+}
+.library-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+    width: 635px;
+    margin-left: 65px;
+    border-bottom-left-radius: 440px;
+    background-image: url(../img/library.jpeg);
+}
+.divs-stripes{
+    padding:25px 0px 0px 30px;
+}
+.white-stripe-div{
+    background-color: white;
+    height:10px;
+    width:10px;
+    margin-left:6px;
+    border-radius: 2px;
+}
+.blue-stripe-div{
+    background-color: #9ed8ec;
+    height:10px;
+    width:10px;
+    margin-left:6px;
+    border-radius: 3px;
+}
+.campus-placements-div :first-child{
+    height:375px;
+    width:620px;
+    border-radius:50px;
+    margin:0px 5px 0px 30px;
+}
+.placements-detailes{
+    height: 375px;
+    width:854px;
+    background-color:rgb(25, 130, 165);
+    clip-path: polygon(0 0%,9% 0,90% 0,100% 0%,100% 90%,100% 100%,4% 100%, 0% 0%,0% 10%);
+    
+}
+.placements-detailes i{
+    color:deepskyblue;
+    font-size:40px;   
+}
+.social-media-icons{
+    background-color:rgb(240, 240, 233);
+    height:120px;
+}
+.social-icons p{
+    color:red;
+    font-size:25px;
+    font-weight:500;
+}
+.social-icons span{
+    color:black;
+}
+.social-icons{
+    padding-left:100px;
+    padding-top:15px;
+}
+
+.social-icons :nth-last-child(2){
+    background-color: white;
+    height: 70px;
+    width: 158px;
+    margin:10px 0px 0px  24px;
+}
+.amazon-logo{
+    background-color: white;
+    height: 70px;
+    width: 158px;
+    margin:10px 0px 0px 24px;
+}
+   
+.events-bg-image{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    background-image: linear-gradient( rgba(28, 28, 28, 0.8),rgba(28, 28, 28, 0.8)), url(../img//viet_college_image.jpg);
+  }
+  .headiline-for-events{
+       color: white;
+      font-size: 53px;
+      font-weight: 600;
+      padding:4px;
+  }
+  .div-empty-events{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    background-image: linear-gradient( rgba(28, 28, 28, 0.8),rgba(28, 28, 28, 0.8)), url(../img//hackathon-image.jpg);
+  }
+  .events-img-flex{
+    display:flex;
+  }
+  .padding-card-div{
+   margin-left:50px;
+  }
+  .previous-btn{
+    color:white;
+    font-size:50px;
+    padding-top:130px;
+  }
+  .after-btn{
+    color:white;
+    font-size:50px;
+    padding-top:130px;
+    margin-left:30px;
+  }
+  /**footer-sec-starts**/
+.footer-bg{
+    background-color: #213A7C;
+  }
+  .footer-logos-flex{
+    display:flex;
+  }
+  .footer-swarnandhra-logo-B-W{
+     height: 245px;
+     padding: 35px;
+     opacity:0.6;
+  }
+  .footer-antiragging-logo{
+    padding:16px;
+  }
+  .footer-antiragging-logo-bg{
+    background-color: white;
+   border-radius:50%;
+   height:150px;
+    background-image: linear-gradient(rgba(44, 70, 139, 0.8),rgba(44, 70, 139, 0.8));
+    margin:30px 0px 0px 30px;
+  
+  }
+  .antiragging-policy h6{
+    color:white;
+    font-size:20px;
+    padding:30px 0px 0px 48px;
+  }
+  .antiragging-policy p{
+    color:white;
+    font-size:13px;
+    opacity:0.6;
+  }
+  .content-for-anti-ragging-policy{
+    height:20px;
+    width:491px;
+    padding-left:50px;
+  }
+  .footer-content-part-two{
+    display:flex;
+  }
+  .nba-logo-white{
+    border-radius:6px;
+    background-color:white;
+    background-image: linear-gradient(rgba(44, 70, 139, 0.8),rgba(44, 70, 139, 0.8));
+    margin:10px;
+    width:68px;
+  }
+  .nba-logo-white img{
+      width:65px;
+      height:65px; 
+      opacity:0.5;
+  }
+  .jntuk-logo-White{
+    border-radius:6px;
+    background-color:white;
+    background-image: linear-gradient(rgba(44, 70, 139, 0.8),rgba(44, 70, 139, 0.8));
+    margin:10px;
+    width:68px;
+  }
+  .jntuk-logo-White img{
+      width:65px;
+      height:65px;
+      opacity:0.7;
+  }
+  .naac-a_grade-logo-B_W{
+     border-radius:6px;
+    background-color:white;
+    background-image: linear-gradient(rgba(44, 70, 139, 0.9),rgba(44, 70, 139, 0.9));
+    margin:10px;
+    width:68px;
+  }
+  .naac-a_grade-logo-B_W img{
+      width:65px; 
+      height:65px;
+  }
+  .footer-contact-links-use-flex{
+    display:flex;
+  }
+  .contact-details-heading{
+    color: white;
+    padding: 10px 0px 0px 15px;
+    font-size: 22px;
+    font-weight:500;
+  }
+  .contact-mail-icon-with-content{
+    display:flex;
+    opacity:0.6;
+    padding-left:10px;
+  }
+  .contact-mail-icon-with-content p{
+    color:white;
+    font-size:12px;
+    padding-left:10px;
+  }
+  .contact-phone-icon-with-content{
+    display:flex;
+    padding-left:10px;
+  }
+  .contact-phone-icon-with-content p{
+    color:white;
+    font-size:12px;
+    padding-left:10px;
+    opacity:0.6;
+    padding-left:10px;
+  }
+  .contact-location-icon-with-content{
+    opacity:0.6;
+    padding-left:10px;
+  }
+  .contact-location-icon-with-content img{
+    height:75px;
+    width:200px;
+  }
+  .content-for-scent-updates-and-use p{
+    color:white;
+    font-size:22px;
+    padding-left:45px;
+    margin-bottom:1px;
+    font-weight:500;
+  }
+  .content-for-scent-updates-and-use  ul li{
+    font-size:12px;
+    color:white;
+    list-style:none;
+    padding-left:12px;
+    opacity:0.6;
+  }
+  .content-for-scent-updates-and-use  ul li a{
+    text-decoration:none;
+    color:white;
+  }
+  .links-available{
+    font-size:12px;
+    color:white;
+    padding-left:10px;
+  }
+  .links-available p{
+    color:white;
+    font-size:20px;
+    padding-left:45px;
+    margin-bottom:1px;
+    font-weight:500;
+  }
+  .links-available ul li{
+     list-style:none;
+     padding-left:15px;
+     opacity:0.6; 
+  }
+  .footer-final-sec{
+   background-color:#2C468B;
+   height:60px;
+  }
+  .footer-final-sec p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 15px 0px;
+  }
+  .footer-final-sec span{
+    color:#ECB500;
+  }
+  .links-available ul li a{
+    color:white;
+    text-decoration: none;
+  }
+  /***footer-sec ends**/
